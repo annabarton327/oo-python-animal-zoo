@@ -23,10 +23,14 @@ When you see a '#', this means the functionality will be related to the instance
 - `Zoo#name` should return the name of the zoo instance.
 - `Zoo.all` should return an list of all the zoo instances.
 - `Zoo#animals` should return all the animals that a specific instance of a zoo has.
+
+To Do: 
 - `Zoo#animal_species` should return an list of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** list).
 - `Zoo#find_by_species` should take in an animal's species as an argument and return an list of all the animals in that zoo, which are of that species.
 - `Zoo#animal_nicknames` should return an list of all the nicknames of animals that a specific instance of a zoo has.
 - `Zoo.find_by_location` should take in a location as an argument and return an list of all the zoos within that location.
+
+
 
 ### Animal Class
 - An `animal` should be instantiated with the species (e.g. "Cat", "Dog", "Rat"), a numerical, a nickname, and the Zoo instance the Animal belongs to. Keep in mind that the animal's species and nickname should not be able to change, but its weight can.
